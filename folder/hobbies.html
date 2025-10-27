@@ -12,6 +12,19 @@
 
 	<!--- Code above this line will not be displayed on the browser --> 
   <link rel="stylesheet" href="..\hobbies.css" />
+	<head> <style>
+      .image-row {
+        display: flex;
+        flex-wrap: wrap; /* lets images move to the next line */
+        gap: 10px;       /* space between images */
+      }
+
+      .image-row img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover; /* keeps them from stretching weirdly */
+      }
+    </style></head>
 	<body>
     <article>
 		<h1>Hobbies</h1>
