@@ -11,7 +11,54 @@
 
 
 	<!--- Code above this line will not be displayed on the browser --> 
- <link rel="stylesheet" href="..\travel.css" />
+ <link rel="stylesheet" href="..\travel.css" /><style>
+  body {
+    background: #101820;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s;
+  }
+
+  .gallery-item:hover .caption {
+    opacity: 1;
+  }
+</style>
+</div>
+
 	<body>
     <article>
 		
@@ -26,7 +73,41 @@
   <li>Honduras</li>
 </ol>
        <span style="font-size: 15px;" and many different states including California, Arizona, Colorado, and New York!>
-		  	  <span style="font-size: 30px;">  <a href="..\index.html">Home Page!</a>
+		  	 
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=1" alt="">
+    <div class="caption">Picture 1</div>
+  </div>
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=2" alt="">
+    <div class="caption">Picture 2</div>
+  </div>
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=3" alt="">
+    <div class="caption">Picture 3</div>
+  </div>
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=4" alt="">
+    <div class="caption">Picture 4</div>
+  </div>
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=5" alt="">
+    <div class="caption">Picture 5</div>
+  </div>
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=6" alt="">
+    <div class="caption">Picture 6</div>
+  </div>
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=7" alt="">
+    <div class="caption">Picture 7</div>
+  </div>
+  <div class="gallery-item">
+    <img src="https://picsum.photos/400?random=8" alt="">
+    <div class="caption">Picture 8</div>
+  </div>
+		   <span style="font-size: 30px;">  <a href="..\index.html">Home Page!</a>
 	   </p>
 		   	 
 	</body>
