@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: Georgia, serif;
   text-align: center;
+  font-size: 30px;
 }
 
 /* Header section */
@@ -10,6 +11,7 @@ body {
   background-color: gold;
   border: 10px solid black;
   padding: 20px;
+  font-size: 45px
 
 }
 dl {
