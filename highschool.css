@@ -1,42 +1,35 @@
-html {
-  /* px means "pixels". The base font size is now 10 pixels high */
-  font-size: 10px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
-  font-family:   href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-  rel="stylesheet" />
-}
-
-h1 {
-  font-size: 40px;
+body {
+  background-color: blue;
+  margin: 0;
+  font-family: Georgia, serif;
   text-align: center;
 }
 
-p,
-li {
-  font-size: 25px;
-  line-height: 2;
-  letter-spacing: 1px;
+/* Header section */
+.header {
+  background-color: gold;
+  border: 10px solid black;
+  padding: 20px;
 }
 
-html {
-  background-color: #3724c6;
-}
-
-body {
-  width: 1000px;
-  margin: 0 auto;
-  background-color: #f5c747;
-  padding: 0 20px 20px 20px;
-  border: 12px solid black;
-}
 h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #a2c4fa;
-  text-shadow: 3px 3px 1px black;
+  color: lightblue;
+  text-shadow: 2px 2px black;
 }
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
+
+/* 4-column layout */
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.column {
+  background-color: gold;
+  border: 5px solid black;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
