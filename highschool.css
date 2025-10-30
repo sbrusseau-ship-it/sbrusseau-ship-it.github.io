@@ -10,27 +10,26 @@ body {
   background-color: gold;
   border: 10px solid black;
   padding: 20px;
-}
 
-h1 {
-  color: lightblue;
-  text-shadow: 2px 2px black;
 }
-
-/* 4-column layout */
-.content {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  padding: 30px;
-}
-
-.column {
+dl {
   background-color: gold;
   border: 5px solid black;
   padding: 20px;
-  color: black;
-  font-size: 20px;
-  font-weight: bold;
+  width: 60%;
+  margin: auto;
+  font-family: Georgia, serif;
 }
+
+dt {
+  font-weight: bold;
+  color: navy;
+  margin-top: 10px;
+}
+
+dd {
+  margin-left: 20px;
+  color: black;
+}
+
 
