@@ -33,5 +33,36 @@ dd {
   margin-left: 20px;
   color: black;
 }
+.navbar {
+  background-color: #333; /* dark background for contrast */
+  overflow: hidden;       /* keeps layout clean */
+  width: 100%;            /* full width across the page */
+  position: relative;     /* makes it flow naturally with the page */
+  bottom: 0;              /* ensures it sits at bottom of the content */
+  text-align: center;
+  margin-top: 50px;       /* optional space above */
+}
 
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 
