@@ -41,13 +41,14 @@ img {
   margin: 0 auto;
   max-width: 100%;
 }
-/* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
-  background-color: #333;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  background-color: #333; /* dark background for contrast */
+  overflow: hidden;       /* keeps layout clean */
+  width: 100%;            /* full width across the page */
+  position: relative;     /* makes it flow naturally with the page */
+  bottom: 0;              /* ensures it sits at bottom of the content */
+  text-align: center;
+  margin-top: 50px;       /* optional space above */
 }
 
 /* Style the links inside the navigation bar */
